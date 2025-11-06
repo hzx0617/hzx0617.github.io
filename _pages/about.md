@@ -1,11 +1,35 @@
 ---
 permalink: /
-title: "黄中欣 | Zhongxin Huang"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+# 欢迎来到我的学术主页 👋
+
+我目前是中南大学计算机学院数据科学与大数据技术专业2022级本科生，研究方向包括群智感知、强化学习、偏好推理与任务匹配等。我的研究兴趣集中于计算智能、神经网络与数据挖掘。
+
+## 🎓 教育经历
+- **中南大学**，数据科学与大数据技术（本科），2022–至今  
+  GPA: 92.85 / 专业排名第1（前1%）
+
+## 🔬 研究方向
+- 群智感知（Mobile Crowd Sensing, MCS）
+- 多智能体偏好学习与任务分配
+- Shapley值与博弈论方法
+- 强化学习与智能决策
+
+## 📄 代表成果
+- 论文《SPDTM: A Shapley-value Based Preference Discovery and Task Matching to Maximize Satisfaction in Mobile Crowd Sensing》，已向 *Computer Networks* 投稿。
+- 国家发明专利2项（第一发明人）。
+- 参与多个科研项目，包括偏好推理与多智能体任务匹配研究。
+
+## 🏆 荣誉与奖项
+- 国家奖学金（两次）
+- 企业奖学金
+- CCF CSP认证成绩305分
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
