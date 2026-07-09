@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://hzx0617.github.io/sitemap.xml
