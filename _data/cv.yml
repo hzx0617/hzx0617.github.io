@@ -34,51 +34,60 @@ cv:
           - "Recipient of the National Scholarship."
 
     Experience:
-      - company: Alibaba Group (Tongyi Qwen)
-        position: Research Intern, RAG Algorithm
-        location: China
+      - company: Alibaba Group (Tongyi Qwen Business Unit)
+        position: RAG Retrieval Algorithm Intern
+        location: Beijing, China
         start_date: 2026-06
         end_date: 2026-09
-        summary: Listwise reranking for the retrieval-augmented generation (RAG) pipeline of Tongyi Qwen.
+        summary: Iteratively optimized the foreign-language retrieval RAG system of Tongyi Qwen, tackling the insufficient authority of Chinese knowledge bases and the reliance on foreign-language sources in professional scenarios.
         highlights:
-          - "Designed a listwise reranking module for the RAG pipeline (RATS) of Tongyi Qwen."
-          - "Optimized query understanding and rewriting, improving query-level relevance metrics by up to 4.88%."
+          - "Rebuilt the retrieval architecture to merge foreign-language general and time-sensitive (TS) indexes into the main recall-and-ranking pipeline, replacing the standalone vertical-search solution and reusing RAG authority and freshness ranking strategies."
+          - "Built an offline index-construction plus online intelligent-retrieval dual-stack system: offline crawling, filtering, translation, and vector/feature indexing of authoritative overseas sites; online recognition of query foreign-language intent with unified multi-index ranking."
+          - "Validated gains via full evaluation: for targeted foreign-language queries, average score +0.18, high-quality rate +4.88%, availability +6%; for random queries, high-quality rate +14%, availability +2%, core information gain +4.3%."
+          - "Drove the optimization roadmap on resource bottlenecks, coverage, and pipeline cost: authoritative-site collection, native foreign-language ranking, and decoupling the pipeline from translation services."
 
-      - company: Kuaishou Technology
-        position: Research Intern, LLM Search Algorithm
+      - company: Kuaishou Technology (Search Technology Dept., General Search Center)
+        position: LLM Search Algorithm Intern
         location: Beijing, China
         start_date: 2025-10
         end_date: 2026-04
-        summary: Listwise/pointwise modeling and evaluation for LLM-based search.
+        summary: Explored a "real user satisfaction"-driven optimization path for Kuaishou's main search entry, addressing over-reliance on click/dwell signals and poor long-tail query experience.
         highlights:
-          - "Built listwise and pointwise modeling and evaluation pipelines for LLM-based search relevance."
-          - "Fine-tuned Qwen3-VL with ASR/OCR signals via SFT and CoT; reached 84.5% pairwise reward-model accuracy."
-          - "Applied GRPO/PPO to train the LLM reward model; online A/B testing improved key metrics by 5.12%."
+          - "Led a multimodal LLM (Qwen3-VL) based whole-page quality evaluation system: leveraging ASR, OCR, key frames, and covers, generating CoT quality analysis via SFT and fine-tuning the reward model with pairwise preference data, reaching 84.5% pairwise accuracy on the human-annotated set."
+          - "Designed and deployed a two-stage GRPO training framework: introducing an LLM RM as the second-stage non-personalized reward on top of a PPO multi-objective model, optimizing policy on 7-day PV<70 long-tail traffic (15.4% of total)."
+          - "Online A/B test (5.12% traffic, 6 days) delivered significant gains: passive-search active query-reformulation rate -0.669% (p<0.05), low/no-relevant-result PV share -0.651%, long-play PV share +0.188%; the project was fully launched."
 
     Publications:
       - title: "LENS: Leveraging Explainable Skills for Listwise Evaluation in Kuaishou Search"
         authors:
-          - Zhongxin Huang
-        publisher: "CIKM 2026 (CCF-B)"
+          - "Zhongxin Huang (co-first author)"
+          - "et al."
+        publisher: "CIKM 2026 (CCF-B, under review)"
         releaseDate: 2026
         url: ""
-        summary: "A CoT-based listwise evaluation framework with SFT and DAPO-based training for search quality assessment; achieved about 84.2% spot-check accuracy."
+        summary: "A skill-based whole-page search quality evaluation framework enabling automated GSB evaluation and bad-case attribution. Built a two-stage SFT + DAPO-based training scheme whose offline classification accuracy and attribution recall clearly surpass mainstream LLM baselines; online human spot-check consistency reached 84.2%, with evaluation efficiency 40.6x over manual on L20 machines. Work done during the Kuaishou internship."
 
-      - title: "SPDTM: A Shapley-value Based Preference Discovery and Task Matching to Maximize Satisfaction"
+      - title: "SPDTM: A Shapley-value Based Preference Discovery and Task Matching to Maximize Satisfaction in Mobile Crowd Sensing"
         authors:
-          - Zhongxin Huang
-        publisher: "Computer Networks 2025 (CCF-B)"
-        releaseDate: 2025
-        url: ""
-        summary: "A Shapley-value based preference discovery and task matching method using MADDPG and multi-armed bandit, reaching about 94.79% and 91.77% on key metrics."
+          - "Z. Huang (first author)"
+          - "Z. Sun"
+          - "W. Tan"
+          - "H. Song"
+          - "T. Wang"
+          - "S. Zhang"
+          - "A. Liu"
+        publisher: "Computer Networks, Vol. 271, 111602 (CCF-B)"
+        releaseDate: 2025-10
+        url: "https://doi.org/10.1016/j.comnet.2025.111602"
+        summary: "A Shapley-value based reinforcement learning framework for preference discovery and task matching in Mobile Crowd Sensing (MCS), addressing low task-worker matching efficiency and false preference reporting. Uses a three-stage design with MADDPG and multi-armed bandit; on real datasets, user preference recognition reached 94.79% and task completion rate 91.77%, outperforming baselines. ISSN 1389-1286."
 
     Awards:
       - title: National Scholarship
         authors:
           - "Ministry of Education, China"
-        date: 2024
+        date: 2025
         awarder: "Ministry of Education, China"
-        summary: "Awarded to top-ranked undergraduate students for outstanding academic performance."
+        summary: "Awarded twice (2024 and 2025) to top-ranked undergraduate students for outstanding academic performance."
 
     Skills:
       - name: Large Language Models
