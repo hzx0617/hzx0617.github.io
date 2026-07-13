@@ -1,4 +1,118 @@
 cv:
+  name: Zhongxin Huang
+  label: PhD Student in Computer Science
+  email: 2294847195@qq.com
+  location: Beijing, China
+  image: ""
+  summary: Focusing on large language models (LLMs) and search & recommendation systems.
+
+  social_networks:
+    - network: GitHub
+      username: hzx0617
+
+  sections:
+    Education:
+      - institution: Peking University
+        location: Beijing, China
+        url: https://www.pku.edu.cn/
+        area: Computer Science and Technology
+        studyType: PhD
+        start_date: 2026-09
+        end_date: 2031-06
+        highlights:
+          - Research on large language models and search & recommendation systems.
+
+      - institution: Central South University
+        location: Changsha, China
+        url: https://www.csu.edu.cn/
+        area: Data Science and Big Data Technology
+        studyType: BSc
+        start_date: 2022-09
+        end_date: 2026-06
+        score: "GPA 93/100 (Top 1%)"
+        highlights:
+          - "Recipient of the National Scholarship."
+
+    Experience:
+      - company: Alibaba Group (Tongyi Qwen)
+        position: Research Intern, RAG Algorithm
+        location: China
+        start_date: 2026-06
+        end_date: 2026-09
+        summary: Listwise reranking for the retrieval-augmented generation (RAG) pipeline of Tongyi Qwen.
+        highlights:
+          - "Designed a listwise reranking module for the RAG pipeline (RATS) of Tongyi Qwen."
+          - "Optimized query understanding and rewriting, improving query-level relevance metrics by up to 4.88%."
+
+      - company: Kuaishou Technology
+        position: Research Intern, LLM Search Algorithm
+        location: Beijing, China
+        start_date: 2025-10
+        end_date: 2026-04
+        summary: Listwise/pointwise modeling and evaluation for LLM-based search.
+        highlights:
+          - "Built listwise and pointwise modeling and evaluation pipelines for LLM-based search relevance."
+          - "Fine-tuned Qwen3-VL with ASR/OCR signals via SFT and CoT; reached 84.5% pairwise reward-model accuracy."
+          - "Applied GRPO/PPO to train the LLM reward model; online A/B testing improved key metrics by 5.12%."
+
+    Publications:
+      - title: "LENS: Leveraging Explainable Skills for Listwise Evaluation in Kuaishou Search"
+        authors:
+          - Zhongxin Huang
+        publisher: "CIKM 2026 (CCF-B)"
+        releaseDate: 2026
+        url: ""
+        summary: "A CoT-based listwise evaluation framework with SFT and DAPO-based training for search quality assessment; achieved about 84.2% spot-check accuracy."
+
+      - title: "SPDTM: A Shapley-value Based Preference Discovery and Task Matching to Maximize Satisfaction"
+        authors:
+          - Zhongxin Huang
+        publisher: "Computer Networks 2025 (CCF-B)"
+        releaseDate: 2025
+        url: ""
+        summary: "A Shapley-value based preference discovery and task matching method using MADDPG and multi-armed bandit, reaching about 94.79% and 91.77% on key metrics."
+
+    Awards:
+      - title: National Scholarship
+        authors:
+          - "Ministry of Education, China"
+        date: 2024
+        awarder: "Ministry of Education, China"
+        summary: "Awarded to top-ranked undergraduate students for outstanding academic performance."
+
+    Skills:
+      - name: Large Language Models
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "Transformer, GPT, LLaMA, Qwen, Prompt Engineering, CoT, Agent"
+
+      - name: Training & Alignment
+        level: Advanced
+        icon: fa-solid fa-gears
+        keywords: "SFT, LoRA, QLoRA, RLHF, DPO, PPO, GRPO"
+
+      - name: Search & Recommendation
+        level: Advanced
+        icon: fa-solid fa-magnifying-glass
+        keywords: "Listwise/Pointwise Ranking, MMOE, PLE, DIN, BST, RAG"
+
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, C++"
+
+    Languages:
+      - name: Chinese
+        summary: "Native speaker"
+
+      - name: English
+        summary: "CET-6 (503), CET-4 (600)"
+
+    Interests:
+      - name: Research Interests
+        icon: fa-solid fa-tag
+        keywords: "Large Language Models, Reinforcement Learning for LLMs, Search & Recommendation Systems, Retrieval-Augmented Generation"
+cv:
   name: Albert Einstein
   label: Scientist
   email: einstein@example.com
