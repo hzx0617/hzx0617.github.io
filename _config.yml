@@ -10,7 +10,8 @@ contact_note: >
   Feel free to reach out to me via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal homepage of Zhongxin Huang, Ph.D. student at the School of Computer Science, Peking University.
-footer_text:
+footer_text: >
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Zhongxin Huang, Peking University, large language models, recommendation systems, PhD student # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
