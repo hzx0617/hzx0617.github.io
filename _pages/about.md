@@ -27,6 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student at the [School of Computer Science](https://cs.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/). I received my bachelor's degree from the School of Computer Science, [Central South University](https://www.csu.edu.cn/). My research interests lie in large language models (LLMs) and search & recommendation systems.
+I am a Ph.D. student at the [School of Computer Science](https://cs.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/). I received my bachelor's degree from the [School of Computer Science](https://cse.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/). My research interests lie in large language models (LLMs) and search & recommendation systems.
 
 I was born in June 2004 and come from Longyan, Fujian, China. Feel free to reach out to me via email if you would like to discuss research or collaboration.
