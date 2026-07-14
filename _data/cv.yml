@@ -16,7 +16,7 @@ cv:
         location: Beijing, China
         url: https://www.pku.edu.cn/
         area: Computer Science and Technology
-        studyType: PhD
+        studyType: Peking University PhD
         start_date: 2026-09
         end_date: 2031-06
         highlights:
@@ -26,15 +26,16 @@ cv:
         location: Changsha, China
         url: https://www.csu.edu.cn/
         area: Data Science and Big Data Technology
-        studyType: BSc
+        studyType: Central South University BSc
         start_date: 2022-09
         end_date: 2026-06
         score: "GPA 93/100 (Top 1%)"
         highlights:
-          - "Recipient of the National Scholarship."
+          - "Recipient of the National Scholarship.(2024 and 2025)"
+          - "Outstanding Student of 2025 (20 students in the entire school)"
 
     Experience:
-      - company: Alibaba Group (Tongyi Qwen Business Unit)
+      - company: Alibaba Group (Qwen Business Unit)
         position: RAG Retrieval Algorithm Intern
         location: Beijing, China
         start_date: 2026-06
@@ -88,6 +89,13 @@ cv:
         date: 2025
         awarder: "Ministry of Education, China"
         summary: "Awarded twice (2024 and 2025) to top-ranked undergraduate students for outstanding academic performance."
+
+      - title: Outstanding student model
+        authors:
+          - "Central South University"  
+        date: 2025
+        awarder: "Central South Universit"
+        summary: "A total of 20 people were selected from across the school."     
 
     Skills:
       - name: Large Language Models
