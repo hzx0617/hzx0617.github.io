@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student at the [School of Computer Science](https://cs.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/). I received my bachelor's degree from the [School of Computer Science](https://cse.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/). My research interests lie in large language models (LLMs) and search & recommendation systems.
+I am a Ph.D. student at the [School of Computer Science](https://cs.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/), where my research focuses on large language models (LLMs) and their application to search & recommendation systems. Before that, I received my bachelor's degree from the [School of Computer Science](https://cse.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/).
 
-During my Ph.D., I have interned at Alibaba's Qwen Business Unit and Kuaishou's Search Technology Department, where I worked on LLM-driven retrieval and search algorithms for large-scale systems. Looking ahead, I hope to publish more research and keep advancing my work in these directions.
+I am passionate about bridging academic research and real-world industry practice. During my Ph.D., I have interned at Alibaba's Qwen Business Unit and Kuaishou's Search Technology Department, where I developed LLM-driven retrieval and search algorithms for large-scale production systems. Looking ahead, I am actively seeking opportunities to collaborate with both academic and industry partners on research that leads to impactful publications.
 
-I was born in June 2004 and come from Longyan, Fujian, China. Feel free to reach out to me by email at [2294847195@qq.com](mailto:2294847195@qq.com) if you would like to discuss research or collaboration.
+I was born in June 2004 and come from Longyan, Fujian, China. If you are interested in discussing research or exploring potential collaborations, feel free to reach out to me by email at [2294847195@qq.com](mailto:2294847195@qq.com).
